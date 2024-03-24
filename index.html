@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    *{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+    }
+
+.root{
+    --bg-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: #ffae00;
+
+    --big-font: 7rem;
+    --p-font: 1.1rem;
+    }
+
+    body{
+        background: var(--bg-color);
+        color: var(--text-color);        overflow-x: hidden;
+    }
+     header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px  15%;
+        background: transparent;
+        transition: all ease .45s;
+
+    }
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lorence's Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--boxicons link--->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--google fonts link--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet">
+
 </head>
 <body>
-   <h1 style="font-size: 100px;"> popgi ni babe esterlla </h1
+        <!--header section--->
+        <header>
+            <a href="#" class="logo"><span>J</span>Lorence</a>
+
+
+            <ui class="navbar">
+                <li> <a href="#" class="active">Home</li>
+                    <li> <a href="#" class="active">About Me</li>
+                        <li> <a href="#" class="active">Hobbies</li>
+                        <li> <a href="#" class="active">Social Media Accounts</li>
+                            <li> <a href="#" class="active">Contacts</li>
+                               
+            </ui>
+                <div class="menu-btn">
+                    <span>INTRO</span>
+                <div class="bx bx-menu",id="menu-i"></div>
+                </div>
+
+                
+        </header>
+
     
-    
+    <!--Custom js file link--->
+    <script src=""js/script.js></script>
 </body>
 </html>
